@@ -15,7 +15,7 @@ df.rename(columns={"Name": "Title", "Year": "Publication Year", "User Rating": "
 df["Price"] = df["Price"].astype(float)
 
 # Outputs Authour Popularity
-authour_counts = df['Author'].value_counts()
+authour_counts = df['Author'].value_counts()   
 print(authour_counts)
 
 # Outputs Average Rating by Genre 
