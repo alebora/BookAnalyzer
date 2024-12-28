@@ -17,7 +17,7 @@ df["Price"] = df["Price"].astype(float)
 # Outputs Authour Popularity
 authour_counts = df['Author'].value_counts()   
 print(authour_counts)
-
+  
 # Outputs Average Rating by Genre 
 avg_rating_genre = df.groupby("Genre")["Rating"].mean()
 print(avg_rating_genre)
